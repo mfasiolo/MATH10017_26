@@ -1,0 +1,5 @@
+Below are some ways you could get help from fellow students (who took this course in the previous years):
+
+- **Maths Café**: A new weekly drop-in session run by our School, where Data Science students can discuss academic topics with senior students. If they have academic questions about your course, they can attend via the timetable app, where some of the Year 3 Data Science students will be available to help.
+
+- **Coding Club**: A weekly drop-in session hosted by the Study Skills team, usually on Wednesday afternoons. Students can seek coding support from senior students with Science and Engineering backgrounds, get coding advice, and discuss coding strategies. Their official site is [here](https://www.bristol.ac.uk/students/your-studies/study-support/study-skills/workshops/), and you can recommend to them to book a slot if they need any extra coding support.
