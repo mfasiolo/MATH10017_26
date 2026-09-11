@@ -9,8 +9,6 @@ This unit is an introduction to programming in C and R.
    - Xuan Zhan (er25922@bristol.ac.uk)
    
    - Ezra Nwobodo (jo21225@bristol.ac.uk)
-   
-   - Yichen Zang (yichen.zang@bristol.ac.uk)
 
 **Announcement:**
 
