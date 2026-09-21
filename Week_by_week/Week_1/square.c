@@ -6,10 +6,10 @@ double square(double x) {
 }
 
 int main(void) {
-    double value = 2.0;
-    double answer = square(value);
+    double y = 2.0;
+    double answer = square(y);
 
-    printf("value = %.1f, answer = %.1f \n", value, answer);
+    printf("y = %.1f, answer = %.1f \n", y, answer);
 
     return 0;
 }
