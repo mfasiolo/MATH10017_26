@@ -26,15 +26,7 @@ This unit is an introduction to programming in C and R.
 
 Go to Blackboard, Resource and Learning Tools to watch replay! 
 
-The content of the course will be posted below, week by week:
-
-1. Lecture slides: [Introduction to C](Week_by_week/Week_1/Lec_Intro_C.pdf) and [Functions in C](Week_by_week/Week_1/Lec_functions_C.pdf).
-   - Homework 0 problems are at the end of the slides. 
-   - [Homework 0 file](Week_by_week/Week_1/0_foundation.zip) 
-   - [Tutorial](Week_by_week/Week_1/Tut/Tutorial1.pptx)
-
-
-   
+The content of the course will be posted [here](Week_by_week) week by week.
 
 ## Extra Learning Materials
 
