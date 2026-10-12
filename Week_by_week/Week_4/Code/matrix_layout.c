@@ -26,6 +26,9 @@ void print_row_major(const int values[], int nrow, int ncol)
 
 int main(void)
 {
+    /* A = | 1  2  3 |
+           | 4  5  6 | */
+
     int nrow = 2;
     int ncol = 3;
 
@@ -36,8 +39,8 @@ int main(void)
     int from_columns = get_column_major(column_major, 1, 0, nrow);
     
     // Both answers are 4, but the flat indices differ.
-    printf("A[1,2] from row-major storage = %d\n", from_rows);
-    printf("A[1,2] from column-major storage = %d\n", from_columns);
+    printf("A[1,0] from row-major storage = %d\n", from_rows);
+    printf("A[1,0] from column-major storage = %d\n", from_columns);
 
     // Both arrays represent the same 2 by 3 matrix.
     print_row_major(row_major, nrow, ncol);
