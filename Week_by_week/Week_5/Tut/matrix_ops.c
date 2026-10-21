@@ -31,6 +31,26 @@ void multiply(struct matrix A, struct matrix B, struct matrix C)
     }
 }
 
+/*
+Optional challenge: allocate and calculate A raised to a non-negative power.
+
+On success, store the result in *result and return 1. matrix_power allocates
+result->elements, so the calling function must free it after use. Return 0 if
+the input is invalid or an allocation fails.
+*/
+int matrix_power(struct matrix A, int power, struct matrix *result)
+{
+    // TODO 8: check that result is valid, A is square and power is non-negative.
+
+    // TODO 9: allocate and initialise current as an identity matrix.
+
+    // TODO 10: repeatedly allocate next, multiply, and release the old current.
+
+    // TODO 11: store current in *result and return success.
+    return 0;
+}
+
+
 int main(void)
 {
     int a_values[] = {1, 2, 3, 4, 5, 6};
@@ -61,6 +81,23 @@ int main(void)
     // TODO 6: allocate C.elements, call multiply and print C.
 
     // TODO 7: release all three dynamically allocated arrays.
+
+    /*
+    Optional challenge: after completing matrix_power, remove these comment
+    markers to test it.
+
+    int q_values[] = {1, 1, 1, 0};
+    struct matrix Q = {2, 2, q_values};
+    struct matrix Q5;
+
+    if (matrix_power(Q, 5, &Q5)) {
+        printf("\nQ to the power 5:\n");
+        print_matrix(Q5);
+        free(Q5.elements);
+    } else {
+        printf("Could not calculate the matrix power.\n");
+    }
+    */
 
     return 0;
 }
